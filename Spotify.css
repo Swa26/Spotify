@@ -1,0 +1,170 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    line-height: 50px;
+}
+
+.bi-spotify {
+    position: absolute;
+    left: 135px;
+    top: 60px;
+    color: #1DB954;
+
+
+}
+
+#spotifylogo {
+    height: 40px;
+    width: 40px;
+
+
+}
+
+.dropdown-item:hover {
+    background-color: black;
+
+}
+
+.dropdownicons2:hover {
+    color: #1DB954;
+
+}
+
+.bi {
+    font-size: 20px;
+}
+
+.icons5 {
+    color: #1DB954;
+}
+
+.icons4 {
+    color: #1DB954;
+}
+
+.btn {
+    border-radius: 50px;
+
+}
+
+.btn:hover {
+    color: #1DB954;
+    background-color: black;
+}
+
+.card {
+    position: relative;
+    height: 12rem;
+    font-size: 7px;
+}
+
+.bi-caret-left-fill {
+    color: #1DB954;
+}
+
+.bi-caret-right-fill {
+    color: #1DB954;
+}
+
+.card .bi.bi-play-circle-fill {
+    position: absolute;
+    top: 120px;
+    right: 10px;
+    transform: scale(1.2);
+    transition-duration: all 0.5s ease;
+    color: #1DB954;
+
+}
+
+.bi.bi-play-circle-fill {
+    display: none;
+}
+
+.card:hover .bi.bi-play-circle-fill {
+    bottom: 0px;
+    opacity: 1;
+    display: block;
+
+
+}
+
+.card:hover {
+    box-shadow: 0px 0px 5px 5px gray;
+    font-size: 12px;
+    transform: scale(1.2);
+    overflow: scroll;
+    font-weight: bold;
+    transition-duration: 0.5s;
+
+}
+
+img {
+    height: 120px;
+}
+
+h1,
+h3 {
+    color: #1DB954;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.icons {
+    color: white;
+    font-size: 30px;
+}
+
+.icons:hover {
+    color: #1DB954;
+    transition-duration: 0.5s;
+    font-size: 40px;
+}
+
+a:hover {
+    color: #1DB954;
+
+}
+
+.nav-link:hover {
+    color: #1DB954;
+}
+
+#navbarmain {
+    position: fixed;
+    height: 100%;
+    width: 20%;
+
+}
+
+#gridmain {
+    position: absolute;
+    left: 304px;
+    top: 65.5px;
+    width: 80%;
+
+}
+
+#navbarrow {
+    position: fixed;
+    width: 80%;
+    left: 315.5px;
+    z-index: 1;
+    top: 0px;
+    padding: 10px;
+}
+
+hr {
+    color: white;
+
+}
+
+h5 {
+    color: #1DB954;
+}
